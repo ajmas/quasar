@@ -110,6 +110,8 @@ scope:
 ---
 This is the structure of a project with all modes installed. There's no reason to be intimidated though!
 
+Note: you will also see a `.quasar` directory created, which Quasar uses for its internals. It is dynamically generated and can be safely added to `.gitignore` (or the equivalent for your source control system).
+
 ::: tip
 If you are a beginner, all you'll need to care about is the `/quasar.config` file (Quasar App Config file), `/src/router`, `/src/layouts`, `/src/pages` and optionally `/src/assets`.
 :::
