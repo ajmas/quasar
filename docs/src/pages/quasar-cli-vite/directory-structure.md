@@ -89,6 +89,8 @@ scope:
     - l: ".editorconfig"
       e: EditorConfig file
       url: https://marketplace.visualstudio.com/items?itemName=EditorConfig.EditorConfig
+    - l: ".quasar"
+      e: Used for Quasar internals. Can safely be omitted from source control.      
     - l: "eslint.config.js"
       e: ESLint config
       url: https://eslint.org/docs/latest/user-guide/configuring/configuration-files#using-configuration-files
